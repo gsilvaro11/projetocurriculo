@@ -1,0 +1,66 @@
+{% load static %}
+<!--AREA PROJETOS -->
+<section class="area_projetos area_conteudo" id="conteudo_certificados">            
+    <div class="container">
+        <div class="row conteudo_projetos">                    
+            <div class="col-md-12">
+                <h3>Projetos</h3>   
+            </div>
+            <div class="row conteudo_projetos">
+
+                <div class="col botao_esquerdo">
+                    <button type="button" class="btn btn-outline-light btn-lg" onclick="dispara('esquerdo')">&lsaquo;</button>
+                </div>
+
+                <div class="col-7">
+                    <div class="hidden row" id="conteudo0">
+                        <div class="logo_projetos">
+                            <img src="{% static 'img/calculadora.png' %}"  width="20" alt="foto_projeto">
+                        </div>                        
+                        <h5>Nome:</h5><p>Calculadora</p>
+                        <h5>Descição:</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sit temporibus quod nat</p>
+                        <h5>Ferramentas:</h5>
+                            <ul>
+                                <li>Html5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>bootstrap 4</li>                
+                            </ul>
+                        <a href="https://github.com/gsilvaro11/Frist-Project.git" target="_blank" class="btn btn-outline-light mt-4" ><i class="fab fa-github"></i></a>
+                    </div>
+
+                    <div class="hidden" id="conteudo1">
+                        <div class="logo_projetos">
+                            <img src="{% static 'img/logo_tipo_branco.png' %}"  width="40" alt="foto_projeto">
+                        </div>                        
+                        <h5>Nome:</h5><p>Teste</p>
+                        <h5>Descição:</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sit temporibus quod nat</p>
+                        <h5>Ferramentas:</h5>
+                            <ul>
+                                <li>Html5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>                
+                            </ul>
+                    </div>
+                    <div class="hidden" id="conteudo2">
+                        <div class="logo_projetos">
+                            <img src="{% static 'img/logo_tipo_preto.png' %}"  width="40" alt="foto_projeto">
+                        </div>                        
+                        <h5>Nome:</h5><p>Teste</p>
+                        <h5>Descição:</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sit temporibus quod nat</p>
+                        <h5>Ferramentas:</h5>
+                            <ul>
+                                <li>Html5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>                
+                            </ul>
+                    </div>                          
+                </div>
+                <div class="col botao_direito">
+                    <button type="button" class="btn btn-outline-light btn-lg" onclick="dispara('direito')">&rsaquo;</button>
+                </div>
+            </div>                                       
+        </div>
+    </div>
+</section>
+<!--TERMINA AREA PROJETOS -->
